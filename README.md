@@ -2,5 +2,6 @@
 
 # Calculator lab project
 ## How to run it
-Run: python3 calculator.py
+Install: python3
+Run: start.sh
 Operations: + - * / (two numbers)
