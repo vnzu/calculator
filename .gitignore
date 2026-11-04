@@ -4,3 +4,5 @@ __pycache__/
 keep-demo.log
 *.log
 drafts/
+.venv/
+.pytest_cache/
