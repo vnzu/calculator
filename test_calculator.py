@@ -1,4 +1,4 @@
-from calculator import add, subtract, multiply, divide
+from calculator import add, subtract, multiply, divide, circleArea
 
 def test_add():
     assert add(2, 3) == 5
@@ -16,3 +16,6 @@ def test_divide_uneven():
     a, b = 7, 2
     result = divide(a, b)
     assert result == 3.5
+
+def test_circleArea():
+    assert circleArea(-4) == "Error"
